@@ -1,0 +1,24 @@
+##################################################################
+# Syntax Coloring Map For
+# ClosedCube TCA9548A 8-Channel I2C Switch with 1.8 (Buck) and 5V (Boost) Breakout Board
+##################################################################
+
+##################################################################
+# Datatypes (KEYWORD1)
+##################################################################
+
+ClosedCube	KEYWORD1
+Wired	KEYWORD1
+TCA9548A	KEYWORD1
+
+
+##################################################################
+# Methods and Functions (KEYWORD2)
+##################################################################
+
+address	KEYWORD2
+getChannel	KEYWORD2
+selectChannel	KEYWORD2
+nextChannel	KEYWORD2
+
+
