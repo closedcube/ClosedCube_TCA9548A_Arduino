@@ -26,7 +26,7 @@ populated with Ultra-Low Power **Texas Instruments TPS61222 5V** Boost and **Tex
 
 [![](http://images.closedcube.uk/logo/github/amazon.png)](https://www.amazon.co.uk/dp/B01GBOGNFE)
 
-| Region  | Link for 2 pcs | Link for 2 pcs (Right-Angle) |
+| Region  | Link for 2 pcs | Link for 2 pcs (PH) |
 | ------------- | ------------- |------------- |
 | Canada | TBD |TBD |
 | Germany (DE) | TDB | TDB |
