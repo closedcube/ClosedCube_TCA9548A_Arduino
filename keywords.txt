@@ -1,6 +1,6 @@
 ##################################################################
 # Syntax Coloring Map For
-# ClosedCube TCA9548A 8-Channel I2C Switch with 1.8 (Buck) and 5V (Boost) Breakout Board
+# Arduino library for Texas Instruments TCA9548A 8-Channel I2C Switch/Multiplexer
 ##################################################################
 
 ##################################################################
@@ -22,3 +22,5 @@ selectChannel	KEYWORD2
 nextChannel	KEYWORD2
 
 
+
+### Updated: Monday, 18 March 2019 at 21:45:07 GMT-00:00

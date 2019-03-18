@@ -1,14 +1,9 @@
-
-> IN PROGRESS
-==========================
-
 Arduino Library for
 ClosedCube TCA9548A 8-Channel I2C Switch with 1.8 (Buck) and 5V (Boost) Breakout Board
 ===
 
-This is breakout board for Texas **Texas Instruments TCA9548A 8-Channel** I2C Switch/Multiplexer 
-populated with Ultra-Low Power **Texas Instruments TPS61222 5V** Boost and **Texas Instruments TPS62740 1.8V** Buck Converters 
-
+This is breakout board for **Texas Instruments TCA9548A 8-Channel** I2C Switch/Multiplexer 
+populated with Ultra-Low Power **Texas Instruments TPS61222 5V** Boost (Step-Up) and **Texas Instruments TPS62740 1.8V** Buck (Step-Down) Converters 
 
 **Features:**
  - 1-to-8 Bidirectional Translating Switches
@@ -19,8 +14,7 @@ populated with Ultra-Low Power **Texas Instruments TPS61222 5V** Boost and **Tex
  - On board 5V boost converter
  - Supports extra **JST PH 2.0mm pitch** connectors
  
- 
-   
+    
 ---
 ### Where to Buy?
 
@@ -28,14 +22,11 @@ populated with Ultra-Low Power **Texas Instruments TPS61222 5V** Boost and **Tex
 
 | Region  | Link for 2 pcs | Link for 2 pcs (PH) |
 | ------------- | ------------- |------------- |
-| Canada | TBD |TBD |
 | Germany (DE) | TDB | TDB |
 | France (FR) | TDB | TDB |
 | Italy (IT) | TDB | TDB |
-| Mexico | TBD | TBD |
 | Spain (ES) | TDB | TDB |
 | UK |  TDB | TDB |
-| USA | TBD | TBD |
 
 
 [![](http://images.closedcube.uk/logo/github/ebay.gif)](http://www.ebay.co.uk/itm/182129971333)
@@ -53,3 +44,5 @@ TDB
 
 
 
+
+Updated: Monday, 18 March 2019 at 21:45:07 GMT-00:00
