@@ -1,11 +1,11 @@
 /*
 
 Arduino library for Arduino library for Texas Instruments TCA9548A 8-Channel I2C Switch/Multiplexer
-version 2019.10.13
+version 2020.1.9
 
 ---
 
-Copyright (c) 2019, ClosedCube
+Copyright (c) 2019-2020, ClosedCube
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without 
