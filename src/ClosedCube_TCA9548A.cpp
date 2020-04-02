@@ -43,23 +43,40 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ClosedCube::Wired::TCA9548A::TCA9548A() {
 }
 
-ClosedCube::Wired::TCA9548A::TCA9548A(uint8_t address):_address(address) {    
+ClosedCube::Wired::TCA9548A::TCA9548A(ClosedCube::Driver::I2CDevice device): _device(device) {    
 }
 
-void ClosedCube::Wired::TCA9548A::address(uint8_t address) {    
-	_address = address;
+ClosedCube::Wired::TCA9548A::TCA9548A(uint8_t address) {
+    _device.address(address);
+}
+
+void ClosedCube::Wired::TCA9548A::address(uint8_t address) {
+    _device.address(address);
 }
 
 uint8_t ClosedCube::Wired::TCA9548A::getChannel() {
+	byte val = _device.readByte();
+	switch (val) {
+	case 0x01: _currentChannel = 0; break;	
+	case 0x02: _currentChannel = 1; break;	
+	case 0x04: _currentChannel = 2; break;	
+	case 0x08: _currentChannel = 3; break;	
+	case 0x10: _currentChannel = 4; break;	
+	case 0x20: _currentChannel = 5; break;	
+	case 0x40: _currentChannel = 6; break;	
+	case 0x80: _currentChannel = 7; break;	
+	default:
+		_currentChannel = -1;
+		break;
+	}
+	
 	return _currentChannel;
 }
 
 uint8_t ClosedCube::Wired::TCA9548A::selectChannel(uint8_t channel) {
 	uint8_t result = 0xff;
 	if (channel >= 0 && channel < TCA9548A_MAX_CHANNELS) {
-		Wire.beginTransmission(_address);
-		Wire.write( ((uint8_t)1) << (channel+1));
-		
+		_device.writeByte( ((uint8_t)1) << (channel+1));		
 		_currentChannel = channel;
 		result = Wire.endTransmission();
 	} 

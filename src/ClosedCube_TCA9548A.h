@@ -39,7 +39,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #ifndef CLOSEDCUBE_TCA9548A_H
 #define CLOSEDCUBE_TCA9548A_H
 
-#include <Arduino.h>
+#include "ClosedCube_I2C.h"
 
 #define TCA9548A_MAX_CHANNELS 8
 
@@ -55,6 +55,7 @@ namespace ClosedCube
             public:
                 TCA9548A();
                 TCA9548A(uint8_t address);
+                TCA9548A(ClosedCube::Driver::I2CDevice device);
 
                 void address(uint8_t address);
 
@@ -64,7 +65,7 @@ namespace ClosedCube
                 uint8_t nextChannel();
 
             private:
-                uint8_t _address;
+                ClosedCube::Driver::I2CDevice _device;
                 uint8_t _currentChannel;
 
         };

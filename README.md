@@ -1,5 +1,5 @@
 Arduino Library for
-ClosedCube TCA9548A 8-Channel I2C Switch with 1.8 (Buck) and 5V (Boost) Breakout Board
+ClosedCube TCA9548A 8-Channel I2C Switch with 1.8V (Buck) and 5V (Boost) Breakout Board
 ===
 
 This is breakout board for **Texas Instruments TCA9548A 8-Channel** I2C Switch/Multiplexer 
@@ -12,24 +12,35 @@ populated with Ultra-Low Power **Texas Instruments TPS61222 5V** Boost (Step-Up)
  - 5-V Tolerant Inputs
  - On board 1.8V buck converter
  - On board 5V boost converter
- - Supports extra **JST PH 2.0mm pitch** connectors
+ - Supports optional ***JST PH 2.0mm pitch*** connectors
  
-    
+![](https://images.closedcube.uk/B366_TCA9548A/small/B366_TCA9548A_1.jpg)    
+
+
+**Manufacturer Part No:**
+- B366_TCA9548A
+- B366_TCA9548A_PH (pre-soldered JST PH 2.0mm headers)
+
+**Requirements:**
+
+- ClosedCube I2C Driver (Wrapper) https://github.com/closedcube/ClosedCube_I2C_Arduino
+
 ---
 ### Where to Buy?
 
-[![](http://images.closedcube.uk/logo/github/amazon.png)](https://www.amazon.co.uk/dp/B01GBOGNFE)
 
-| Region  | Link for 2 pcs | Link for 2 pcs (PH) |
-| ------------- | ------------- |------------- |
-| Germany (DE) | TDB | TDB |
-| France (FR) | TDB | TDB |
-| Italy (IT) | TDB | TDB |
-| Spain (ES) | TDB | TDB |
-| UK |  TDB | TDB |
+[![](https://images.closedcube.uk/logo/github/amazon.png)](https://www.amazon.co.uk/dp/B01GBOGNFE)
+
+| Region  |  |
+| ------------- |  |
+| Germany (DE) | TDB  |
+| France (FR) | TDB  |
+| Italy (IT) | TDB  |
+| Spain (ES) | TDB  |
+| UK |  TDB  |
 
 
-[![](http://images.closedcube.uk/logo/github/ebay.gif)](http://www.ebay.co.uk/itm/182129971333)
+[![](https://images.closedcube.uk/logo/github/ebay.gif)](http://www.ebay.co.uk/itm/182129971333)
 
 | Region  | Link |
 | ------------- | ------------- |
@@ -37,12 +48,13 @@ populated with Ultra-Low Power **Texas Instruments TPS61222 5V** Boost (Step-Up)
 | USA  | TDB |
 
 
-[![](http://images.closedcube.uk/logo/github/tindie.png)](https://www.tindie.com/stores/closedcube/)
-
-TDB
+[![](https://images.closedcube.uk/logo/github/tindie.png)](https://www.tindie.com/stores/closedcube/)
 
 
+https://www.tindie.com/products/14012/
 
 
 
-Updated: Thursday, 02 April 2020 at 14:29:11 GMT-00:00
+
+
+Updated: Thursday, 02 April 2020 at 17:19:12 GMT-00:00
