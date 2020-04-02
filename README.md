@@ -14,7 +14,7 @@ populated with Ultra-Low Power **Texas Instruments TPS61222 5V** Boost (Step-Up)
  - On board 5V boost converter
  - Supports optional ***JST PH 2.0mm pitch*** connectors
  
-![](https://images.closedcube.uk/B366_TCA9548A/small/B366_TCA9548A_1.jpg)    
+![](https://images.closedcube.uk/B366_TCA9548A/ClosedCube_B366_TCA9548A_GitHub1.jpg)    
 
 
 **Manufacturer Part No:**
@@ -32,7 +32,7 @@ populated with Ultra-Low Power **Texas Instruments TPS61222 5V** Boost (Step-Up)
 [![](https://images.closedcube.uk/logo/github/amazon.png)](https://www.amazon.co.uk/dp/B01GBOGNFE)
 
 | Region  |  |
-| ------------- |  |
+| ------------- |---|
 | Germany (DE) | TDB  |
 | France (FR) | TDB  |
 | Italy (IT) | TDB  |
@@ -57,4 +57,4 @@ https://www.tindie.com/products/14012/
 
 
 
-Updated: Thursday, 02 April 2020 at 17:19:12 GMT-00:00
+Updated: Thursday, 02 April 2020 at 20:44:59 GMT-00:00
