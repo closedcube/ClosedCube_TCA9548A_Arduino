@@ -3,7 +3,7 @@
 Example: tca9548ademo
 
 Arduino library for Arduino library for Texas Instruments TCA9548A 8-Channel I2C Switch/Multiplexer
-version 2020.2.17
+version 2020.4.2
 
 ---
 
