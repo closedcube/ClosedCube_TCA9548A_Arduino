@@ -45,7 +45,7 @@ populated with Ultra-Low Power **Texas Instruments TPS61222 5V** Boost (Step-Up)
 | Region  | Link |
 | ------------- | ------------- |
 | Europe,Asia,Oceania | https://www.ebay.co.uk/itm/184237319506  |
-| USA  | TDB |
+| USA  | https://www.ebay.com/itm/184238007536 |
 
 
 [![](https://images.closedcube.uk/logo/github/tindie.png)](https://www.tindie.com/stores/closedcube/)
@@ -57,4 +57,4 @@ https://www.tindie.com/products/14012/
 
 
 
-Updated: Friday, 03 April 2020 at 11:35:10 GMT-00:00
+Updated: Friday, 03 April 2020 at 11:42:10 GMT-00:00
