@@ -76,7 +76,8 @@ uint8_t ClosedCube::Wired::TCA9548A::getChannel() {
 uint8_t ClosedCube::Wired::TCA9548A::selectChannel(uint8_t channel) {
 	uint8_t result = 0xff;
 	if (channel >= 0 && channel < TCA9548A_MAX_CHANNELS) {
-		_device.writeByte( ((uint8_t)1) << channel);		
+		_device.writeByte( ((uint8_t)1) << channel);	
+		_currentChannel = channel;
 		result = Wire.endTransmission();
 	} 
 	return result;
