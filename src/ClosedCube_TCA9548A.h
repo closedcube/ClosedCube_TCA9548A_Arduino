@@ -1,7 +1,7 @@
 /*
 
 Arduino library for Arduino library for Texas Instruments TCA9548A 8-Channel I2C Switch/Multiplexer
-version 2020.4.4
+version 2020.4.5
 
 ---
 
@@ -43,14 +43,11 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #define TCA9548A_MAX_CHANNELS 8
 
-namespace ClosedCube 
-{
+namespace ClosedCube {
 
-    namespace Wired 
-    {
+    namespace Wired {
 
-        class TCA9548A 
-        {
+        class TCA9548A {
 
             public:
                 TCA9548A();
